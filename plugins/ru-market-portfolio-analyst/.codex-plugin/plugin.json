@@ -1,0 +1,10 @@
+{
+  "name": "ru-market-portfolio-analyst",
+  "version": "1.0.0",
+  "description": "Long-term Russian equities, OFZ, and corporate-bond portfolio analysis with moderate-risk allocation, rebalancing, and concrete lot-aware buy plans.",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "RU Market Portfolio Analyst",
+    "shortDescription": "Анализ портфеля российских акций и облигаций"
+  }
+}

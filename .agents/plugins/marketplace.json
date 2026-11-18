@@ -1,0 +1,20 @@
+{
+  "name": "local-codex-plugins",
+  "interface": {
+    "displayName": "Local Codex Plugins"
+  },
+  "plugins": [
+    {
+      "name": "ru-market-portfolio-analyst",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ru-market-portfolio-analyst"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Finance"
+    }
+  ]
+}

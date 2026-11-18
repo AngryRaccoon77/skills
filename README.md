@@ -4,6 +4,19 @@
 
 ## Установка
 
+### В настольном приложении Codex
+
+1. На странице репозитория нажмите **Code → Open with GitHub Desktop** и клонируйте репозиторий.
+2. В приложении ChatGPT переключитесь на **Codex** и откройте папку клона как локальный проект. Выберите папку с `README.md` и `.agents/plugins/marketplace.json`.
+3. Перезапустите приложение и откройте этот проект.
+4. В боковой панели откройте **Plugins** и выберите источник **Local Codex Plugins**.
+5. Откройте нужный плагин и нажмите **+** для установки.
+6. Начните новый чат в Codex.
+
+Чтобы обновить плагины из локального клона, скачайте изменения в GitHub Desktop и перезапустите Codex. [Документация Codex по локальным каталогам](https://developers.openai.com/plugins/build/plugins#build-your-own-curated-plugin-list)
+
+### Через Codex CLI
+
 ~~~sh
 codex plugin marketplace add AngryRaccoon77/skills
 ~~~
@@ -25,8 +38,6 @@ codex plugin add thinking-tools@local-codex-plugins
 codex plugin add workflow@local-codex-plugins
 codex plugin add skill-eval@local-codex-plugins
 ~~~
-
-В приложении Codex откройте **Plugins → Local Codex Plugins**. После установки начните новый чат.
 
 ## Что входит
 

@@ -7,7 +7,7 @@ description: "Consult OpenAI Codex for investigation, debugging, or code review.
 
 For Codex, use the tools available in the current client. Ask a needed question in chat if the question tool is unavailable.
 
-Consult OpenAI Codex (GPT-5.5) as a second opinion for investigation, debugging, or review tasks.
+Consult OpenAI Codex as a second opinion for investigation, debugging, or review tasks.
 
 ## Activation Triggers
 

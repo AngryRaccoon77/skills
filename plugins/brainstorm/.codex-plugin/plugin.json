@@ -1,0 +1,9 @@
+{
+  "name": "brainstorm",
+  "version": "2.2.2",
+  "description": "Collaborative design dialogue - idea to approaches to design to plan",
+  "interface": {
+    "displayName": "Brainstorm"
+  },
+  "skills": "./skills/"
+}

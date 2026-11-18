@@ -1,0 +1,9 @@
+{
+  "name": "thinking-tools",
+  "version": "1.2.3",
+  "description": "Analytical thinking tools - dialectic analysis, bias elimination, codex consultation",
+  "interface": {
+    "displayName": "Thinking Tools"
+  },
+  "skills": "./skills/"
+}

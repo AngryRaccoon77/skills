@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python -c \"import json; print(json.dumps(dict(hookSpecificOutput=dict(hookEventName='UserPromptSubmit', additionalContext='Before implementation, check the Codex skills available in this session. If a skill applies, read its SKILL.md and follow it. Briefly name the skills you use when that helps the user.'))))\"",
+            "timeout": 10,
+            "statusMessage": "Checking relevant Codex skills"
+          }
+        ]
+      }
+    ]
+  }
+}

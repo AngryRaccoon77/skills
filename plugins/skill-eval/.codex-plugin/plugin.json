@@ -1,0 +1,9 @@
+{
+  "name": "skill-eval",
+  "version": "1.0.0",
+  "description": "Forces skill evaluation before every response",
+  "interface": {
+    "displayName": "Skill Evaluation"
+  },
+  "hooks": "./hooks/hooks.json"
+}

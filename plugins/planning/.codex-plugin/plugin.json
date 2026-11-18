@@ -1,0 +1,9 @@
+{
+  "name": "planning",
+  "version": "3.12.0",
+  "description": "Structured implementation planning, interactive annotation review, and autonomous plan execution",
+  "interface": {
+    "displayName": "Planning"
+  },
+  "skills": "./skills/"
+}
